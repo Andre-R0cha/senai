@@ -18,7 +18,7 @@ public class questao5 {
         System.out.println("digite um numero: ");
         int C =  Integer.parseInt(valorC.nextLine());
 
-        
+        System.out.println(((A*x)*(A*x)+(B+x)+C)=0);
         
 
     }
