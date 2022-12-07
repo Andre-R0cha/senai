@@ -21,6 +21,6 @@ HashMap<String, Double> tabela = new HashMap<String, Double>();
         }
         System.out.println(name);
         System.out.println(time);
-    }
+    }//jklehasukhwertsghytnlkiresn;lokgt
     
 }
