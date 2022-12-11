@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch quest4",
+            "request": "launch",
+            "mainClass": "quest4",
+            "projectName": "senai_d4861878"
+        },
+        {
+            "type": "java",
+            "name": "Launch questao3",
+            "request": "launch",
+            "mainClass": "questao3",
+            "projectName": "senai_d4861878"
+        },
+        {
+            "type": "java",
+            "name": "Launch questao2",
+            "request": "launch",
+            "mainClass": "questao2",
+            "projectName": "senai_d4861878"
+        },
+        {
+            "type": "java",
+            "name": "Launch questao9",
+            "request": "launch",
+            "mainClass": "questao9",
+            "projectName": "senai_d4861878"
+        },
+        {
+            "type": "java",
             "name": "Launch questao",
             "request": "launch",
             "mainClass": "questao",
