@@ -10,7 +10,7 @@ public class quest4 {
 
 
         ArrayList<Double> notas = new ArrayList<Double>();        
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 5; i++) {
            System.out.println("Digite a nota do aluno: ");
            notas.add ( teclado.nextDouble());
            
