@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch questao8",
+            "request": "launch",
+            "mainClass": "questao8",
+            "projectName": "atividade9"
+        },
+        {
+            "type": "java",
+            "name": "Launch questao99",
+            "request": "launch",
+            "mainClass": "questao99",
+            "projectName": "atividade9"
+        },
+        {
+            "type": "java",
+            "name": "Launch questao4",
+            "request": "launch",
+            "mainClass": "atividade9.questao4",
+            "projectName": "atividade9"
+        },
+        {
+            "type": "java",
             "name": "Launch quest4",
             "request": "launch",
             "mainClass": "quest4",
