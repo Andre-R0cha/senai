@@ -15,7 +15,7 @@ HashMap<String, Double> tabela = new HashMap<String, Double>();
 
         for (int i = 0; i < name.length; i++) {
             System.out.println("Digite o nome: ");
-            name[i] = teclado.nextLine();
+            name[i] = teclado.next();
             System.out.println("Digite o tempo: ");
             time[i] = teclado.nextDouble();
         }
