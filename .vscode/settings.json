@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "atividade8/src",
+        "atividade8",
         "atividade6/src",
         "atividade4/teste/src",
-        "atividade8/src",
-        "atividade8"
+        "atividade9.1/src"
     ]
 }
