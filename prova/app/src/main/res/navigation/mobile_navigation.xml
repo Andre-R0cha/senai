@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.prova.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_toast"
+        android:name="com.example.prova.ui.toast.ToastFragment"
+        android:label="Toast"
+        tools:layout="@layout/fragment_toast" />
+    <fragment
+        android:id="@+id/nav_alerta"
+        android:name="com.example.prova.ui.aleta.AlertaFragment"
+        android:label="Alerta"
+        tools:layout="@layout/fragment_alerta" />
+    <fragment
+        android:id="@+id/nav_snackbar"
+        android:name="com.example.prova.ui.snakbar.SnackbarFragment"
+        android:label="Snackbar"
+        tools:layout="@layout/fragment_snackbar" />
+    <fragment
+        android:id="@+id/nav_midiaplay"
+        android:name="com.example.prova.ui.midia.MidiaplayFragment"
+        android:label="Midia play"
+        tools:layout="@layout/fragment_midia" />
+
+</navigation>

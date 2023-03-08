@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_toast"
+            android:icon="@drawable/ic_baseline_comment_24"
+            android:title="Toast" />
+        <item
+            android:id="@+id/nav_alerta"
+            android:icon="@drawable/ic_baseline_crisis_alert_24"
+            android:title="Alerta dialog" />
+        <item
+            android:id="@+id/nav_"
+            android:icon="@drawable/ic_baseline_equalizer_24"
+            android:title="Snackbar" />
+        <item
+            android:id="@+id/nav_midiaplay"
+            android:icon="@drawable/ic_baseline_play_arrow_24"
+            android:title="Midia Play" />
+    </group>
+</menu>
