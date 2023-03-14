@@ -3,6 +3,7 @@
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -61,11 +62,14 @@ import com.google.android.material.textfield.TextInputEditText;
 //             Log.i("RESULTADO - nome: ", nome + "/ idade: " + idade);
 //             cursor.moveToNext();
 //         }
-
+m
      } catch (Exception e) {
          e.printStackTrace();
      }}
      public void salvando(View view) {
+
+         Intent salvar = new Intent(this, CadastroActivity.class);
+      startActivity(salvar);
          String nomeFront = name.getText().toString();
          String senha1 = senha.getText().toString();
 
@@ -115,8 +119,10 @@ import com.google.android.material.textfield.TextInputEditText;
                      if ( name.getText().toString().equals(nome)  ){
                          if (senha.getText().toString().equals(senha)){
                              // chamar outra tela
+
                          }else{
                              //senha errada
+
                          }
                      }else{
                          cursor.moveToNext();
